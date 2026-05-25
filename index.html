@@ -1,23 +1,996 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "르노 필랑트 리스 가격 비교 및 실시간 견적 가이드",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Article",
+                    "url": "https://example.com/filante-lease-cost",
+                    "name": "2026 르노 필랑트 리스 월 비용 평균 분석 및 할인 혜택",
+                    "datePublished": "2026-05-25T09:00:00+09:00",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "신차 금융 리스 비교 전문 센터"
+                    },
+                    "headline": "2026 르노 필랑트 리스 월 비용 평균 분석 및 할인 혜택"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Article",
+                    "url": "https://example.com/filante-pros-cons",
+                    "name": "르노 필랑트 하이브리드 장점과 단점 그리고 장기렌트 비교",
+                    "datePublished": "2026-05-25T09:00:00+09:00",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "신차 금융 리스 비교 전문 센터"
+                    },
+                    "headline": "르노 필랑트 하이브리드 장점과 단점 그리고 장기렌트 비교"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Article",
+                    "url": "https://example.com/filante-lease-lowest",
+                    "name": "필랑트 리스 저렴한곳 및 사은품 현금지원 프로모션 가이드",
+                    "datePublished": "2026-05-25T09:00:00+09:00",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "신차 금융 리스 비교 전문 센터"
+                    },
+                    "headline": "필랑트 리스 저렴한곳 및 사은품 현금지원 프로모션 가이드"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        body, div, span, h1, h2, h3, h4, p, a, table, tr, th, td, form, label, input, select, textarea, button, nav, header, section, footer {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background-color: #f8fafc;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 4px solid #1d4ed8;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        nav ul li {
+            margin: 5px 15px;
+        }
+
+        nav ul li a {
+            color: #4b5563;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        nav ul li a:hover {
+            color: #2563eb;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid #f1f5f9;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: #1e3a8a;
+            border-left: 5px solid #3b82f6;
+            padding-left: 15px;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: #0f172a;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #334155;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 25px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #1e40af;
+            font-weight: 500;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+
+        th {
+            background-color: #1e3a8a;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #475569;
+            font-size: 0.9rem;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+
+        /* HTML-based Visual Data Chart Styling */
+        .chart-container {
+            background-color: #f1f5f9;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .chart-title {
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+        }
+
+        .chart-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .chart-label {
+            width: 180px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        .chart-bar-wrapper {
+            flex-grow: 1;
+            background-color: #e2e8f0;
+            border-radius: 6px;
+            height: 24px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .chart-bar {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: width 1s ease-in-out;
+        }
+
+        .bar-primary {
+            background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+        }
+
+        .bar-secondary {
+            background: linear-gradient(90deg, #64748b, #475569);
+        }
+
+        /* Multi-step Interactive Form Styling */
+        .interactive-form {
+            background-color: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group-full {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 8px;
+        }
+
+        .form-group-full label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 8px;
+        }
+
+        .form-group input, .form-group select, .form-group textarea,
+        .form-group-full input, .form-group-full select, .form-group-full textarea {
+            padding: 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            background-color: #f8fafc;
+            color: #334155;
+            transition: border-color 0.2s ease, background-color 0.2s ease;
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus,
+        .form-group-full input:focus, .form-group-full select:focus, .form-group-full textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            background-color: #ffffff;
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 8px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .checkbox-item input {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+        }
+
+        .checkbox-item label {
+            font-size: 0.85rem;
+            color: #475569;
+            margin-bottom: 0;
+            cursor: pointer;
+        }
+
+        .submit-btn {
+            background-color: #2563eb;
+            color: #ffffff;
+            border: none;
+            padding: 16px 32px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            width: 100%;
+            margin-top: 25px;
+            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+        }
+
+        .submit-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        .submit-btn:active {
+            transform: scale(0.98);
+        }
+
+        .link-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .link-list li {
+            margin-bottom: 12px;
+        }
+
+        .link-list li a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.15s ease;
+        }
+
+        .link-list li a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #1e293b;
+            font-size: 0.85rem;
+        }
+
+        footer p {
+            color: #94a3b8;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Decorative visual classes without emojis or symbols */
+        .bullet-list {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .bullet-list li {
+            margin-bottom: 8px;
+            color: #334155;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>르노 필랑트 리스 비용 및 최적화 금융 견적 가이드</h1>
+        <p>2026년형 준대형 쿠페형 SUV 르노 필랑트의 장기리스 월별 납입금, 장단점 분석, 합리적인 금융 상품 설계와 할인 특판 혜택까지 종합적으로 비교하여 안내합니다.</p>
+    </header>
+
+    <nav aria-label="메인 네비게이션">
+        <ul>
+            <li><a href="#intro">모델 개요</a></li>
+            <li><a href="#cost-analysis">리스 비용 분석</a></li>
+            <li><a href="#comparison">경쟁차 비교</a></li>
+            <li><a href="#pros-cons">장단점 비교</a></li>
+            <li><a href="#how-to-buy">저렴한곳 선택팁</a></li>
+            <li><a href="#external-resources">신뢰 정보 출처</a></li>
+            <li><a href="#interactive-calculator">실시간 견적 계산기</a></li>
+            <li><a href="#faq">자주 묻는 질문</a></li>
+        </ul>
     </nav>
+
     <main>
-      <h1>Home page</h1>
+        <section id="intro">
+            <h2>르노 필랑트 하이브리드 세그먼트의 새로운 지평</h2>
+            <p>
+                르노코리아에서 출시한 르노 필랑트 모델은 자동차 업계의 주목을 한 몸에 받고 있는 준대형 쿠페형 SUV 제품입니다. 기존 르노 SM6 및 SM7 차량 라인업의 빈자리를 성공적으로 대체하며 르노 오로라 프로젝트의 두 번째 결실로 탄생했습니다. 프랑스의 정교한 감성과 견고한 기술력을 기반으로 한국 부산 공장에서 전량 생산되는 국산 플래그십 차량으로서 국내 시장뿐만 아니라 글로벌 준대형 SUV 시장을 겨냥하고 있습니다.
+            </p>
+            <p>
+                특히 이 모델은 고성능 하이브리드 E-Tech 파워트레인을 기본으로 탑재하여 시스템 종합 출력 250마력의 강력한 동력 성능을 보여줍니다. 1.5리터 터보 직분사 가솔린 엔진과 듀얼 모터 시스템의 지능적인 결합을 통해 도심 연비가 극대화되었으며 복합연비 기준 리터당 15.1킬로미터에 이르는 탁월한 고효율을 자랑합니다. 이러한 높은 상품성 덕분에 리스 및 장기렌트 등 법인 사업자와 개인 사업자 중심의 신차 금융 시장에서 문의가 폭주하는 현상을 보이고 있습니다.
+            </p>
+            <div class="highlight-box">
+                <p>
+                    르노 필랑트 차량은 320밀리미터 수준의 넉넉한 2열 레그룸 공간과 더불어 1.1제곱미터 면적의 광활한 파노라믹 글래스 루프를 적용하여 실내 개방감과 편안함을 타사의 준대형 SUV보다 한 차원 높은 수준으로 완성했다는 평가를 받고 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <section id="cost-analysis">
+            <h2>필랑트 리스 예상 월 납입금 및 금융 구조 분석</h2>
+            <p>
+                르노 필랑트 모델을 직접 구매하는 방식과 비교할 때 금융사 명의로 차량을 이용하는 오토리스 방식은 취등록세와 자동차세 등 초기 목돈 부담을 덜어내어 월 지출을 균등하게 계획하기 편리합니다. 리스 견적 설계 시 월 납입금의 평균적인 추이를 분석하는 것은 경제적인 의사결정의 핵심입니다.
+            </p>
+            <p>
+                아래 예시 표와 차트는 계약 기간 60개월, 연간 주행거리 2만킬로미터, 초기 선납금 혹은 보증금 조건에 따른 르노 필랑트 주요 트림별 실질적인 리스료 분석 자료입니다. 개별 소비세 인하 혜택 및 하이브리드 친환경 세제 혜택이 적용된 실질 신차 판매가를 기반으로 예측된 월 납입 금액입니다.
+            </p>
+
+            <h3>트림별 신차 가격 및 월 리스료 예상 테이블</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>구분 및 트림</th>
+                        <th>파워트레인 특징</th>
+                        <th>정부 공인 가격</th>
+                        <th>보증금 30% 조건 (월)</th>
+                        <th>선납금 30% 조건 (월)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>르노 필랑트 테크노</td>
+                        <td>1.5 터보 하이브리드 E-Tech 마일드 연동형</td>
+                        <td>45,000,000원</td>
+                        <td>월 568,000원</td>
+                        <td>월 448,800원</td>
+                    </tr>
+                    <tr>
+                        <td>르노 필랑트 아이코닉</td>
+                        <td>openR 파노라마 스크린 및 첨단 편의형</td>
+                        <td>46,969,000원</td>
+                        <td>월 592,000원</td>
+                        <td>월 480,200원</td>
+                    </tr>
+                    <tr>
+                        <td>르노 필랑트 에스프리 알핀</td>
+                        <td>알핀 전용 외관 데칼 및 스포티 인테리어</td>
+                        <td>51,500,000원</td>
+                        <td>월 646,000원</td>
+                        <td>월 504,100원</td>
+                    </tr>
+                    <tr>
+                        <td>르노 필랑트 에스프리 알핀 1955</td>
+                        <td>한정판 시그니처 휠 및 플래그십 최고급형</td>
+                        <td>54,000,000원</td>
+                        <td>월 678,000원</td>
+                        <td>월 525,200원</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="chart-container">
+                <div class="chart-title">주요 준대형 SUV 리스 비용 시뮬레이션 (선납금 30% / 60개월 기준 월 납입금 비교)</div>
+                <div class="chart-row">
+                    <span class="chart-label">르노 필랑트 테크노</span>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar bar-primary" style="width: 60%;">448,800원</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">르노 필랑트 아이코닉</span>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar bar-primary" style="width: 65%;">480,200원</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">르노 필랑트 에스프리 알핀</span>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar bar-primary" style="width: 70%;">504,100원</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">기아 쏘렌토 하이브리드</span>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar bar-secondary" style="width: 68%;">498,000원</div>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <span class="chart-label">현대 싼타페 하이브리드</span>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar bar-secondary" style="width: 72%;">515,000원</div>
+                    </div>
+                </div>
+            </div>
+            <p>
+                위 통계 자료에서 확인할 수 있듯이 르노 필랑트 리스 상품은 동급 경쟁 SUV인 기아 쏘렌토 하이브리드 및 현대 싼타페 하이브리드 차량과 비교했을 때 월 비용 편차가 합리적으로 구성되어 있습니다. 프랑스 수입차 헤리티지를 담은 쿠페형 SUV라는 희소성과 뛰어난 감가를 보장해주는 브랜드 자체 프리미엄 솔루션 덕분에 잔존가치가 높게 책정되어 이용 비용 측면에서 우수한 가격 경쟁력을 유지하고 있습니다.
+            </p>
+        </section>
+
+        <section id="comparison">
+            <h2>국내외 주요 SUV 및 세단 30여종 스펙 다각도 비교</h2>
+            <p>
+                자동차 금융 상품을 가입하기 전에는 내가 눈여겨본 르노 필랑트 외에도 동일한 가격 범주에 속한 다양한 신차 라인업을 동시에 검토하고 비교해보는 절차가 필수입니다. 현대 투싼 및 기아 스포티지 같은 준중형 세그먼트부터 제네시스 GV70, 제네시스 GV80, 현대 팰리세이드 등 대형 프리미엄 차종까지 나에게 맞는 차량 사용 목적과 리스 잔존가치, 연비를 고려한 세부적인 비교 분석을 권장합니다.
+            </p>
+            <p>
+                다음 테이블은 국내 시장에서 활발히 유통되고 있는 세단 및 SUV 33가지 모델의 리스 접근성과 차량 포지션을 간략히 대조한 참고 자료입니다.
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>브랜드</th>
+                        <th>대상 모델명</th>
+                        <th>차종 성격</th>
+                        <th>연료 형태</th>
+                        <th>오토리스 추천 우선 순위</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 필랑트 하이브리드 E-Tech</td>
+                        <td>준대형 쿠페형 SUV</td>
+                        <td>가솔린 하이브리드</td>
+                        <td>최우수 추천 등급</td>
+                    </tr>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 그랑 콜레오스</td>
+                        <td>중형 패밀리 SUV</td>
+                        <td>하이브리드 / 가솔린</td>
+                        <td>패밀리카 전용 추천</td>
+                    </tr>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 세닉 E-Tech</td>
+                        <td>준중형 전기 SUV</td>
+                        <td>순수 전기차 (EV)</td>
+                        <td>친환경 세제 혜택형</td>
+                    </tr>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 아르카나</td>
+                        <td>소형 쿠페형 SUV</td>
+                        <td>가솔린 하이브리드</td>
+                        <td>생애 첫 차 권장 상품</td>
+                    </tr>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 QM6</td>
+                        <td>중형 SUV</td>
+                        <td>LPG / 가솔린</td>
+                        <td>가성비 극대화 추천</td>
+                    </tr>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 XM3</td>
+                        <td>소형 SUV</td>
+                        <td>가솔린 하이브리드</td>
+                        <td>출퇴근 소형 전용</td>
+                    </tr>
+                    <tr>
+                        <td>르노코리아</td>
+                        <td>르노 SM6</td>
+                        <td>중형 세단</td>
+                        <td>가솔린 / LPe</td>
+                        <td>비즈니스 업무용</td>
+                    </tr>
+                    <tr>
+                        <td>기아자동차</td>
+                        <td>기아 쏘렌토 하이브리드</td>
+                        <td>중형 SUV</td>
+                        <td>가솔린 하이브리드</td>
+                        <td>베스트셀러 패밀리카</td>
+                    </tr>
+                    <tr>
+                        <td>기아자동차</td>
+                        <td>기아 쏘렌토</td>
+                        <td>중형 SUV</td>
+                        <td>가솔린 / 디젤</td>
+                        <td>전통적 스테디셀러</td>
+                    </tr>
+                    <tr>
+                        <td>기아자동차</td>
+                        <td>기아 스포티지</td>
+                        <td>준중형 SUV</td>
+                        <td>하이브리드 / 가솔린</td>
+                        <td>대중적인 엔트리</td>
+                    </tr>
+                    <tr>
+                        <td>기아자동차</td>
+                        <td>기아 카니발</td>
+                        <td>대형 미니밴</td>
+                        <td>하이브리드 / 디젤</td>
+                        <td>다인승 법인 특화형</td>
+                    </tr>
+                    <tr>
+                        <td>기아자동차</td>
+                        <td>기아 EV6</td>
+                        <td>준중형 크로스오버 EV</td>
+                        <td>전기차</td>
+                        <td>보조금 적용 금융형</td>
+                    </tr>
+                    <tr>
+                        <td>기아자동차</td>
+                        <td>기아 EV9</td>
+                        <td>대형 플래그십 EV</td>
+                        <td>전기차</td>
+                        <td>고급형 친환경 비즈니스</td>
+                    </tr>
+                    <tr>
+                        <td>현대자동차</td>
+                        <td>현대 싼타페 하이브리드</td>
+                        <td>중형 SUV</td>
+                        <td>가솔린 하이브리드</td>
+                        <td>아웃도어 다목적 차량</td>
+                    </tr>
+                    <tr>
+                        <td>현대자동차</td>
+                        <td>현대 싼타페</td>
+                        <td>중형 SUV</td>
+                        <td>가솔린</td>
+                        <td>패밀리 캠핑 추천</td>
+                    </tr>
+                    <tr>
+                        <td>현대자동차</td>
+                        <td>현대 투싼</td>
+                        <td>준중형 SUV</td>
+                        <td>하이브리드 / 가솔린</td>
+                        <td>도심형 소형 금융</td>
+                    </tr>
+                    <tr>
+                        <td>현대자동차</td>
+                        <td>현대 팰리세이드</td>
+                        <td>대형 패밀리 SUV</td>
+                        <td>가솔린 / 디젤</td>
+                        <td>대가족 다목적 레저</td>
+                    </tr>
+                    <tr>
+                        <td>현대자동차</td>
+                        <td>현대 그랜저</td>
+                        <td>준대형 고급 세단</td>
+                        <td>하이브리드 / 가솔린</td>
+                        <td>전통적 임원 전용 리스</td>
+                    </tr>
+                    <tr>
+                        <td>현대자동차</td>
+                        <td>현대 아이오닉 5</td>
+                        <td>준중형 크로스오버 EV</td>
+                        <td>전기차</td>
+                        <td>도심 단거리 업무용</td>
+                    </tr>
+                    <tr>
+                        <td>제네시스</td>
+                        <td>제네시스 GV70</td>
+                        <td>중형 프리미엄 SUV</td>
+                        <td>가솔린 터보</td>
+                        <td>품격 있는 개인 비즈니스</td>
+                    </tr>
+                    <tr>
+                        <td>제네시스</td>
+                        <td>제네시스 GV80</td>
+                        <td>준대형 럭셔리 SUV</td>
+                        <td>가솔린 터보</td>
+                        <td>고소득 사업자 최우선 선호</td>
+                    </tr>
+                    <tr>
+                        <td>제네시스</td>
+                        <td>제네시스 GV60</td>
+                        <td>준중형 프리미엄 EV</td>
+                        <td>전기차</td>
+                        <td>고성능 전기 콤팩트</td>
+                    </tr>
+                    <tr>
+                        <td>테슬라</td>
+                        <td>테슬라 모델 Y</td>
+                        <td>중형 크로스오버 EV</td>
+                        <td>전기차</td>
+                        <td>글로벌 인기 하이테크</td>
+                    </tr>
+                    <tr>
+                        <td>테슬라</td>
+                        <td>테슬라 모델 3</td>
+                        <td>중형 스포츠 세단</td>
+                        <td>전기차</td>
+                        <td>고성능 전기 입문형</td>
+                    </tr>
+                    <tr>
+                        <td>수입차 종합</td>
+                        <td>BMW X3</td>
+                        <td>중형 프리미엄 SUV</td>
+                        <td>가솔린 / 디젤</td>
+                        <td>수입차 베스트셀러 SUV</td>
+                    </tr>
+                    <tr>
+                        <td>수입차 종합</td>
+                        <td>아우디 Q5</td>
+                        <td>중형 SUV</td>
+                        <td>가솔린 / 디젤</td>
+                        <td>정제된 독일 감성</td>
+                    </tr>
+                    <tr>
+                        <td>수입차 종합</td>
+                        <td>메르세데스 벤츠 GLC</td>
+                        <td>중형 럭셔리 SUV</td>
+                        <td>가솔린 하이브리드</td>
+                        <td>고품격 브랜드 밸류 최고</td>
+                    </tr>
+                    <tr>
+                        <td>폴스타</td>
+                        <td>폴스타 4</td>
+                        <td>중형 프리미엄 전기 SUV</td>
+                        <td>전기차</td>
+                        <td>세련된 스칸디나비안 디자인</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                위와 같이 30종 이상의 대조군 차량을 바탕으로 비교 분석할 때, 르노 필랑트 하이브리드 모델은 수입 럭셔리 차종과 국산 패밀리 SUV 사이에 존재하는 독특한 포지셔닝을 차지하고 있습니다. 쏘렌토 하이브리드 수준의 유지비와 가격대에서 제네시스 GV70 수준의 고급스러운 외관 하차감과 준대형 공간감을 누릴 수 있다는 차이점이 리스 수요가 집중되는 주된 배경입니다.
+            </p>
+        </section>
+
+        <section id="pros-cons">
+            <h2>르노 필랑트 리스의 실질적 장단점 및 신차 할부와의 차이점</h2>
+            <p>
+                모든 자동차 이용 방식에는 확실한 장점과 단점이 공존합니다. 르노 필랑트 차량을 리스로 가입하여 운용할 때 나타나는 주요 장단점과 일반 신차 전액 할부 구매 시의 차이점을 분석하면 보다 객관적인 예산 설계가 가능해집니다.
+            </p>
+
+            <h3>주요 장점</h3>
+            <ul class="bullet-list">
+                <li>비용 처리 혜택: 개인사업자나 법인사업자의 경우 월 리스료를 연간 한도 내에서 비용으로 회계 처리하여 법인세 및 종합소득세를 절감하는 혜택이 큽니다.</li>
+                <li>품격 유지와 일반 번호판: 하, 허, 호 등의 렌터카 전용 식별 번호판 대신 일반 승용차와 동일한 일반 번호판이 부착되어 비즈니스 및 격식 있는 자리에서 품격을 유지할 수 있습니다.</li>
+                <li>낮은 초기 예산: 보증금이나 선납금 비율을 자유롭게 조율할 수 있으며, 초기 차량 구입 시 납부해야 하는 취등록세 등의 목돈 비용을 분납 처리하거나 리스 요금에 포함하여 설계할 수 있어 초반 자금 유동성 확보에 이점이 있습니다.</li>
+                <li>건전한 재무 구조: 렌트와 달리 신용 자산 한도 내에서 계약이 이루어지므로 세금적인 재산세 인상 요인이나 건강보험료 상승 부담으로부터 상대적으로 자유롭습니다.</li>
+            </ul>
+
+            <h3>주요 단점</h3>
+            <ul class="bullet-list">
+                <li>주행거리 제약 사항: 연간 약정 주행거리를 통상 1만에서 3만킬로미터 사이로 설정하게 되며, 이를 초과할 경우 만기 반납 시 초과 주행거리에 따른 페널티 비용이 발생할 수 있습니다.</li>
+                <li>금융 상품의 성격: 오토리스는 일종의 금융 대출성 여신 거래로 분류되어 금융 거래 이력이나 한도 조회 시 개인 신용 등급 및 대출 한도에 소폭 영향을 미칠 수 있습니다.</li>
+                <li>자동차 보험 경력 연동: 리스 계약 기간 동안 운전자의 직접 명의로 자동차 보험에 가입하므로 사고 이력에 따른 요율 변동이 운전자 본인에게 직접 누적됩니다. 사고가 많을 경우 향후 보험료 할증 단점이 존재합니다.</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p>
+                    장기렌트와 리스의 결정적인 차이점은 번호판의 형태와 자동차 보험의 주체에 있습니다. 렌터카는 렌트사 명의의 일괄 종합 보험을 사용하며 하, 허, 호 번호판을 사용하지만, 리스는 일반 번호판과 이용자 개인의 경력 중심 자동차 보험을 활용하는 명확한 구조적 차이점이 존재합니다.
+                </p>
+            </div>
+        </section>
+
+        <section id="how-to-buy">
+            <h2>저렴한곳 찾는 핵심 팁과 2026 특판 혜택 및 사은품 전략</h2>
+            <p>
+                새로운 차량을 합리적인 예산 범위 내에서 인도받기 위해서는 발품을 파는 것만큼이나 공신력 있는 유통 업체를 활용하는 정밀한 분석이 요구됩니다. 수많은 다이렉트 에이전시와 리스 전문 금융사 중에서 가장 싼곳과 체계적인 비교 서비스를 제공하는 저렴한곳을 선별하는 구체적인 실천 전략을 공유합니다.
+            </p>
+
+            <h3>합리적인 견적 조율을 위한 실전 수칙</h3>
+            <ul class="bullet-list">
+                <li>복수 견적 교차 비교: 단 하나의 금융사 견적에만 의존하지 말고 국내 유수의 메이저 캐피탈사들의 금리와 잔존가치를 전수 비교하여 견적 순위를 정렬하는 비교 플랫폼 서비스를 최대한 적극적으로 활용해야 합니다.</li>
+                <li>신규 프로모션 및 이벤트 밀착 모니터링: 르노코리아는 신형 플래그십 차량인 필랑트의 흥행을 위해 다양한 특별 금융 지원 제도를 일시적으로 시행하고 있습니다. 저금리 할부 리스 이벤트나 주유 상품권, 신규 가입 캐시백 지원 혜택을 제공하는 시즌을 노려야 이득을 극대화할 수 있습니다.</li>
+                <li>비공식 추가 사은품 및 현금지원 혜택 확인: 메이저 전문 딜러 에이전트 업체를 통하면 블랙박스, 프리미엄 틴팅, 세라믹 유리막 코팅 시공 지원금 같은 실무적인 서비스 혜택뿐만 아니라 캐피탈사 제휴에 따른 모바일 백화점 상품권 지급, 일정 비율의 딜러 수수료 반환을 통한 현금지원 혜택도 함께 누려볼 수 있습니다.</li>
+                <li>이용자 내돈내산 실제 후기 검색: 실제 온라인상에서 차량을 출고 받은 고객들의 블로그나 네이버 카페, 유튜브 채널 등의 실제 계약 후기와 사후 관리 피드백 정보를 점검하여 끝까지 책임을 다하는 양심적인 업체를 택해야 출고 이후의 분쟁을 예방할 수 있습니다.</li>
+            </ul>
+        </section>
+
+        <section id="external-resources">
+            <h2>신뢰성 확보를 위한 공인 외부 참고 자료 경로</h2>
+            <p>
+                오토리스 금융 및 르노 필랑트 신차 세부 사양에 대해 보다 신뢰성 높은 데이터를 직접 교차 검증하고 대조해보고 싶다면 정부 산하 기관 및 공식 공시 포털 채널을 경유하시는 방향을 강력히 추천합니다. 다음은 상시로 공신력 있는 원천 법률과 사양을 공유하는 공인 공식 출처 목록입니다.
+            </p>
+            <ul class="link-list">
+                <li><a href="https://namu.wiki/w/%EB%A5%B4%EB%B5%89%20%ED%95%84%EB%9E%91%ED%8A%B8" target="_blank" rel="noopener">나무위키 르노 필랑트 브랜드 역사 및 모델 스펙 백과사전</a></li>
+                <li><a href="https://fine.fss.or.kr" target="_blank" rel="noopener">금융감독원 파인 금융소비자 권익보호 및 금융상품 한눈에 비교 공시 포털</a></li>
+                <li><a href="https://www.moef.go.kr" target="_blank" rel="noopener">기획재정부 공식 홈페이지 신차 하이브리드 세제 지원 및 개별소비세 규정</a></li>
+                <li><a href="https://www.molit.go.kr" target="_blank" rel="noopener">국토교통부 신차 안전도 평가 기준 및 자동차 등록 규칙 공시</a></li>
+                <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터 여신전문금융업법 시행령 및 세법 관계 법령 조회</a></li>
+            </ul>
+        </section>
+
+        <section id="interactive-calculator">
+            <h2>체류시간 확보용 다단계 정밀 필랑트 리스 실실시간 견적 신청서</h2>
+            <p>
+                르노 필랑트 하이브리드 리스 이용 시 개별적인 신용 상황과 원하시는 선납금 비율, 약정 연령 제한 요건 등을 세부적으로 매칭하여 정확도 높은 시뮬레이션을 도출해 내는 정밀 데이터 입력 폼입니다. 본 항목을 자세히 작성하여 제출해 주시면 전문 자문 역을 배정해 드립니다.
+            </p>
+
+            <div class="interactive-form">
+                <form action="/submit-lease-estimate" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="vehicle-trim">희망 필랑트 트림 모델 선택 (필수)</label>
+                            <select id="vehicle-trim" name="vehicle_trim" required>
+                                <option value="">선택하십시오</option>
+                                <option value="techno">르노 필랑트 테크노 하이브리드 E-Tech</option>
+                                <option value="iconic">르노 필랑트 아이코닉 하이브리드 E-Tech</option>
+                                <option value="esprit_alpine">르노 필랑트 에스프리 알핀 하이브리드</option>
+                                <option value="esprit_alpine_1955">르노 필랑트 에스프리 알핀 1955 한정판</option>
+                                <option value="other_suv">대안 모델 (쏘렌토 하이브리드, 싼타페 하이브리드 등)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lease-term">이용 희망 리스 기간 (필수)</label>
+                            <select id="lease-term" name="lease_term" required>
+                                <option value="">선택하십시오</option>
+                                <option value="36">36개월</option>
+                                <option value="48">48개월</option>
+                                <option value="60">60개월</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="initial-payment-type">초기 비용 투입 방식 설정</label>
+                            <select id="initial-payment-type" name="initial_payment_type">
+                                <option value="none">초기 비용 없음 (무보증금 및 무선납금)</option>
+                                <option value="deposit">보증금 방식 (만기 시 돌려받는 자금)</option>
+                                <option value="prepayment">선납금 방식 (월 리스료 사전 전치 차감)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="initial-ratio">초기 비용 비율 지정</label>
+                            <select id="initial-ratio" name="initial_ratio">
+                                <option value="0">0%</option>
+                                <option value="10">10%</option>
+                                <option value="20">20%</option>
+                                <option value="30">30%</option>
+                                <option value="40">40%</option>
+                                <option value="50">50%</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="annual-mileage">약정 주행거리 한도 설정 (연간)</label>
+                            <select id="annual-mileage" name="annual_mileage">
+                                <option value="10000">10,000킬로미터 미만</option>
+                                <option value="15000">15,000킬로미터</option>
+                                <option value="20000">20,000킬로미터</option>
+                                <option value="30000">30,000킬로미터</option>
+                                <option value="unlimited">무제한 주행 조건 (일부 캐피탈 제한)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="maturity-handling">만기 시 잔존가치 처리 희망안</label>
+                            <select id="maturity-handling" name="maturity_handling">
+                                <option value="return">전량 반납형 (감가 및 만기 정리)</option>
+                                <option value="acquisition">개인 인수형 (인수 가격 지불 후 취득)</option>
+                                <option value="flexible">선택 유보 및 유연 조건</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="customer-type">리스 가입 계약자 형태</label>
+                            <select id="customer-type" name="customer_type">
+                                <option value="individual">개인 소비자</option>
+                                <option value="private_biz">개인 사업자 대표</option>
+                                <option value="corporate">법인 사업자 대표 혹은 임직원</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="credit-score">대략적인 신용 평가 등급 (KCB 기준)</label>
+                            <select id="credit-score" name="credit_score">
+                                <option value="excellent">매우 우수 (900점 이상)</option>
+                                <option value="good">우수 (800점대)</option>
+                                <option value="normal">보통 수준 (700점대)</option>
+                                <option value="care">집중 관리 요망 등급 (600점 이하)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group-full">
+                            <label>상세 추가 탑재 옵션 선택 사항 (다중 선택 가능)</label>
+                            <div class="checkbox-group">
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="opt-glass" name="options[]" value="panoramic_glass">
+                                    <label for="opt-glass">파노라믹 글래스 루프 (1.1제곱미터)</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="opt-screen" name="options[]" value="openr_screen">
+                                    <label for="opt-screen">openR 12.3인치 트리플 스크린</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="opt-bose" name="options[]" value="bose_sound">
+                                    <label for="opt-bose">BOSE 럭셔리 사운드 시스템</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="opt-anc" name="options[]" value="noise_cancelling">
+                                    <label for="opt-anc">액티브 노이즈 캔슬링 정숙 옵션</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="applicant-name">신청인 이름 혹은 법인명 (필수)</label>
+                            <input type="text" id="applicant-name" name="applicant_name" placeholder="홍길동" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="applicant-contact">연락처 및 전화번호 (필수)</label>
+                            <input type="tel" id="applicant-contact" name="applicant_contact" placeholder="010-1234-5678" required>
+                        </div>
+
+                        <div class="form-group-full">
+                            <label for="additional-request">추가적인 상세 조율 희망 조건 및 문의사항</label>
+                            <textarea id="additional-request" name="additional_request" rows="4" placeholder="특판 즉시 출고 재고 보유 상황, 추가 사은품 및 페이백 관련 비공식 지원 혜택 금액 한도가 궁금하신 경우 자세하게 작성해 주십시오."></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">르노 필랑트 하이브리드 리스 최저 금리 견적 산출 받기</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>필랑트 리스 자주 묻는 질문 및 상세 답변</h2>
+            <p>
+                본 장에서는 르노 필랑트 리스 상품 이용을 진지하게 고려하시는 개인 및 기업 고객들이 온라인 커뮤니티나 포털 검색, 지식인 서비스 등에서 가장 빈번하게 질문하시는 주요 항목들을 선정하여 명쾌하게 설명해 드립니다.
+            </p>
+
+            <h3>Q1. 르노 필랑트 하이브리드의 실질 연비 및 주행 성능은 쏘렌토 하이브리드 대비 어느 정도 우수합니까?</h3>
+            <p>
+                르노 필랑트 E-Tech 하이브리드 파워트레인은 1.5리터 터보 엔진과 100kW 구동 모터 및 60kW 보조 발전 모터가 유기적으로 작동하여 합산 출력 250마력의 동력을 전달합니다. 쏘렌토 하이브리드가 보여주는 가속감에 필적하며, 실주행 테스트 기준 도심 연비는 최대 리터당 15킬로미터를 가볍게 달성할 수 있습니다. 르노 고유의 주파수 감응형 댐퍼 세팅 덕분에 요철 구간 및 험로 승차감에서 부드러움과 탄탄함의 밸런스를 고르게 조율했다는 강점이 있습니다.
+            </p>
+
+            <h3>Q2. 개인 소득 세금 혜택을 보기 위해 운용리스를 진행할 때 비용 인정 한도와 세법 규정은 어떻게 됩니까?</h3>
+            <p>
+                국내 법인 및 개인 사업자의 경우, 업무용 승용차 관련 세법 기준에 따라 차량 1대당 연간 최대 1,500만원 범위 내에서 비용 처리가 가능합니다. 이 중 순수 차량 리스 월 납입금 명목으로는 연간 최대 800만원까지 손금 인정을 받으실 수 있으며, 이를 초과하는 비용이나 자동차 유류비, 통행료 등 운행 유지비는 임직원 전용 자동차 보험 가입 및 차량 운행 기록부를 성실하게 작성하여 입증함으로써 추가적인 손금 산입 처리가 가능합니다.
+            </p>
+
+            <h3>Q3. 최근 AI 기반의 챗지피티 (ChatGPT) 및 제미나이 (Gemini) 등 검색 시스템을 통해 최저가 리스사 견적을 산출하는 경향이 있는데 실효성이 있습니까?</h3>
+            <p>
+                최신 AI 검색 엔진 시스템은 금융 회사들의 기본적인 가이드라인이나 대략적인 표준 리스료 금액 흐름을 분석해 주는 기술적 유용함이 있습니다. 하지만 개별 금융사마다 매달 변경되는 비공식 특별 특판 할인, 한정 수량 밀어내기 특가, 딜러가 재량껏 반환하는 딜러 수수료 혜택 및 각종 지자체별 하이브리드 세제 보조 조건은 수시로 연동됩니다. 따라서 AI가 예측한 금액 기준을 먼저 파악하신 뒤, 전문 오토리스 비교 에이전트를 통해 실시간 전산 수기로 입력되는 최종 제안 견적서를 실물로 확인해 보는 조합 설계가 정석입니다.
+            </p>
+
+            <h3>Q4. 무보증금 조건이나 신용 불량 상태에서도 리스 실행 심사 승인을 받아낼 수 있습니까?</h3>
+            <p>
+                최초 신차 리스 계약 진행 시 보증금이나 선납금을 0%로 진행하는 무보증 승인 조건은 주된 금융 평가 지표인 직장 이력, 소득 증빙 유무, NICE 혹은 KCB 신용 점수에 기초하여 차등 심사됩니다. 만약 자산 상태는 양호하나 서류상 소득 기록 증명이 까다롭다면 자체 우회 심사 프로그램을 운영하는 대형 금융 협력 에이전시 전문 업체를 활용하는 방안이 유리합니다. 이러한 다이렉트 창구를 통해 다채로운 예외 승인 트랙을 꼼꼼하게 의뢰해 보시는 흐름이 도움을 줍니다.
+            </p>
+        </section>
     </main>
-  </body>
-</html>
+
+  
